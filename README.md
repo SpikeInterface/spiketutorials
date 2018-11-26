@@ -1,4 +1,4 @@
-# Tutorials
+# spiketutorials
 
 This module contains tutorials for using each package in SpikeInterface. These tutorials range from basic to advanced and cover many powerful functionalities enabled by SpikeInterface.
 
