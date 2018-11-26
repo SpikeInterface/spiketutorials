@@ -14,9 +14,7 @@ To get started with these tutorials, you can install each package separately wit
 
 ```shell
 pip install spikeextractors
-
 pip install spiketoolkit
-
 pip install spikewidgets
-
 ```
+
