@@ -1,0 +1,19 @@
+channel_groups = {
+    # Tetrode index
+    0:
+      {
+      'channels': [12, 13, 14, 15],
+      },
+    1:
+      {
+      'channels': [8, 9, 10, 11],
+      },
+    2:
+      {
+      'channels': [4, 5, 6, 7],
+      },
+    3:
+      {
+      'channels': [0, 1, 2, 3],
+      },
+}
