@@ -19,5 +19,5 @@ MEArec
 klusta
 klustakwik2
 jupyter
-git+https://github.com/cortex-lab/phy
+git+https://github.com/cortex-lab/phy@dev
 git+https://github.com/cortex-lab/phylib

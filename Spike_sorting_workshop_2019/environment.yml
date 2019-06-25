@@ -1,0 +1,29 @@
+name: spiketutorial
+dependencies:
+  - python=3.6
+  - pip
+  - pip:
+    - numpy
+    - scipy
+    - h5py
+    - six
+    - cython
+    - PyQt5==5.9
+    - colorcet
+    - pyopengl
+    - qtconsole
+    - requests
+    - traitlets
+    - tqdm
+    - joblib
+    - click
+    - matplotlib
+    - spikeextractors
+    - spiketoolkit
+    - spikewidgets
+    - MEArec
+    - klusta
+    - klustakwik2
+    - jupyter
+    - git+https://github.com/cortex-lab/phy.git@dev
+    - git+https://github.com/cortex-lab/phylib.git
