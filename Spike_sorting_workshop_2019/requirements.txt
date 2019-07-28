@@ -15,6 +15,7 @@ matplotlib
 spikeextractors
 spiketoolkit
 spikewidgets
+spikesorters
 MEArec
 klusta
 klustakwik2
