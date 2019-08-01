@@ -40,4 +40,5 @@ or:
 `conda install nb_conda_kernels` and change Kernel to run the tutorial notebook.
 
 
-The data used in this tutorial can be downloaded from Zenodo at this [link](https://zenodo.org/record/3256071#.XRHqhnX7Q5k).
+The data used in this tutorial can be downloaded from Zenodo at this [link](https://doi.org/10.5281/zenodo.3260283
+).
