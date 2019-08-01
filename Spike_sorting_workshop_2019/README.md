@@ -15,9 +15,7 @@ For this analysis, we will be using a simulated dataset from [MEArec](https://gi
 
 
 For this tutorial we will need the following packages:
-- spikeextractors
-- spiketoolkit
-- spikewidgets
+- spikeinterface
 - MEArec
 - klusta
 - phy
