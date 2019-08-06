@@ -12,10 +12,7 @@ requests
 traitlets
 joblib
 matplotlib
-spikeextractors
-spiketoolkit
-spikewidgets
-spikesorters
+spikeinterface
 MEArec
 klusta
 klustakwik2
