@@ -1,6 +1,6 @@
 # spiketutorials
 
-This module contains tutorials for using each package in [spikeinterface](https://github.com/SpikeInterface/pikeinterface).
+This module contains tutorials for using each package in [spikeinterface](https://github.com/SpikeInterface/spikeinterface).
 These tutorials range from basic to advanced and cover many powerful functionalities enabled by SpikeInterface.
 
 Current `spikeinterface` modules are:
