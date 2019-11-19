@@ -13,6 +13,6 @@ Current `spikeinterface` modules are:
 
 ## Dependencies
 
-To get started with these tutorials, install [spikeinterface](https://github.com/SpikeInterface/pikeinterface).
+To get started with these tutorials, install [spikeinterface](https://github.com/SpikeInterface/spikeinterface).
 Each tutorial contains a requirement and environment file for additional dependencies.
 
