@@ -1,0 +1,17 @@
+numpy
+h5py
+cython
+tqdm
+click
+pillow
+scipy
+matplotlib
+scikit-learn
+pyqt5
+klusta
+klustakwik2
+jupyter
+phy
+pynwb
+pyopenephys
+spikeinterface
