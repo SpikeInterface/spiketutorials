@@ -13,10 +13,10 @@ dependencies:
     - matplotlib
     - scikit-learn
     - pyqt5
+    - pyqtwebengine
     - klusta
     - klustakwik2
     - jupyter
-    - phy
     - pynwb
     - pyopenephys
     - spikeinterface

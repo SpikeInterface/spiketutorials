@@ -11,7 +11,8 @@ pyqt5
 klusta
 klustakwik2
 jupyter
-phy
+pyqtwebengine
+phy --pre --upgrade
 pynwb
 pyopenephys
 spikeinterface

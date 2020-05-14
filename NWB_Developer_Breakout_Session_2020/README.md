@@ -1,44 +1,41 @@
-# SpikeInterface Tutorial - Spike Sorting Workshop - Edinburgh 2019
+# SpikeInterface Tutorial - NWB User Days Workshop  - May 2020
 
 
-In this tutorial, we will cover the basics of using SpikeInterface for extracellular analysis and spike sorting comparison. We will be using three packages from the SpikeInterface github organization: spikeextractors, spiketoolkit, and spikewidgets.
+In this tutorial, we will cover the basics of using SpikeInterface for extracellular analysis and spike sorting comparison. 
+We will be using the `spikeinterface` from the SpikeInterface github organization. 
 
-For this analysis, we will be using a simulated dataset from [MEArec](https://github.com/alejoe91/MEArec). We will show how to:
+`spikeinterface` wraps 5 subpackages: `spikeextractors`, `spikesorters`, `spiketoolkit`, `spikecomparison`, and `spikewidgets`.
+
+For this analysis, we will be using a real dataset recorded from CA1 region in the hippocampus (recording from [CINPLA](https://www.mn.uio.no/ibv/english/research/sections/fyscell/cinpla/)). We will show how to:
 
 - load the data with spikeextractors package
 - load a probe file
 - preprocess the signals
 - run a popular spike sorting algorithm with different parameters
-- curate the spike sorting output using Phy
-- compare with ground-truth information
-- run consensus-based spike sorting
+- curate the spike sorting output using 1) quality metrics (automatic) - 2) [Phy](https://github.com/cortex-lab/phy) 
+(manual) - 3) consensus-based
+- save the results to NWB!
 
-
-For this tutorial we will need the following packages:
-- spikeinterface
-- MEArec
-- klusta
-- phy
-- matplotlib
-
-+ all their dependencies.
-
-To install those you can use the `requirements.txt` in this directory by running the command:
-
-`pip install -r requirements.txt`
-
-If you use a conda environment, you can create the `spiketutorial` environment with:
+We recommend creating a new `spiketutorial` conda environment using:
 
 `conda env create -f environment.yml`
 
-You might need to run:
+In addition, for the conda environment, you need to install [Phy](https://github.com/cortex-lab/phy) for the manual curation step.
 
-`ipython kernel install --user --name=tutorial`
-
-or:
-
-`conda install nb_conda_kernels` and change Kernel to run the tutorial notebook.
+`pip install phy --pre --upgrade`
 
 
-The data used in this tutorial can be downloaded from Zenodo at this [link](https://doi.org/10.5281/zenodo.3260283
-).
+Alternatively, you can install the requirements you can use the `requirements.txt` in this directory by running the command:
+
+`pip install -r requirements.txt`
+
+(in this case Phy should be automatically installed)
+
+
+
+### Downloading the recording
+
+First, we need to download the recording. Feel free to use your own recordings as well later on.
+From this Zenodo [link](https://zenodo.org/record/3256071#.XRHqhnX7Q5k), you can download the dataset mentioned above 
+(`open-ephys-dataset.zip`). Move the dataset in the current folder and unzip it.
+The recording was performed with the mircodrives with 4 tetrodes each (in total 32 channels).
