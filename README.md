@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3825284.svg)](https://doi.org/10.5281/zenodo.3825284)
+
+
 # spiketutorials
 
 This module contains tutorials for using each package in [spikeinterface](https://github.com/SpikeInterface/spikeinterface).
@@ -15,4 +18,7 @@ Current `spikeinterface` modules are:
 
 To get started with these tutorials, install [spikeinterface](https://github.com/SpikeInterface/spikeinterface).
 Each tutorial contains a requirement and environment file for additional dependencies.
+
+Datasets are available on [Zenodo](https://doi.org/10.5281/zenodo.3825284).
+)
 
