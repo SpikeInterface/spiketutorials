@@ -20,6 +20,10 @@ We recommend creating a new `spiketutorial` conda environment using:
 
 `conda env create -f environment.yml`
 
+Then activate the environment:
+
+`conda activate spiketutorial`
+
 In addition, for the conda environment, you need to install [Phy](https://github.com/cortex-lab/phy) for the manual curation step.
 
 `pip install phy --pre --upgrade`
