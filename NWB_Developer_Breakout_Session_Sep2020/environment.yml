@@ -1,0 +1,23 @@
+name: spiketutorial
+dependencies:
+  - python=3.6
+  - pip
+  - pyqt
+  - cython
+  - pillow
+  - pip:
+    - numpy
+    - h5py
+    - cython
+    - tqdm
+    - click
+    - pillow
+    - scipy
+    - matplotlib
+    - scikit-learn
+    - klusta
+    - klustakwik2
+    - jupyter
+    - pynwb
+    - pyopenephys
+    - spikeinterface==0.10.0
