@@ -6,6 +6,7 @@ click
 pillow
 scipy
 matplotlib
+seaborn
 scikit-learn
 pyqt5
 klusta
