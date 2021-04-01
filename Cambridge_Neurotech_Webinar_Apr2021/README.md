@@ -28,7 +28,6 @@ Alternatively, you can install the requirements you can use the `requirements.tx
 
 ### Downloading the recording
 
-First, we need to download the recording. Feel free to use your own recordings as well later on.
-From this Zenodo [link](https://doi.org/10.5281/zenodo.3825284), you can download the dataset mentioned above 
-(`open-ephys-dataset.zip`). Move the dataset in the current folder and unzip it.
-The recording was performed with the mircodrives with 4 tetrodes each (in total 32 channels).
+First, we need to download the recording. Feel free to use your own recordings as well later on. 
+From this Zenodo [link](https://doi.org/10.5281/zenodo.4657314), you can download the dataset mentioned above (`cambridge_data.bin`). Move the dataset in the current folder and unzip it.
+The recording was performed with the "ASSY-156-P1" probe with 4 shanks of 16 channels (in total 64 channels).
