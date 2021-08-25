@@ -1,0 +1,24 @@
+name: si090
+dependencies:
+  - python=3.8
+  - pip
+  - pyqt
+  - pip:
+    - numpy
+    - h5py
+    - tqdm
+    - click
+    - pillow
+    - scipy
+    - matplotlib
+    - seaborn
+    - networkx
+    - ipympl
+    - scikit-learn
+    - herdingspikes
+    - jupyter
+    - pynwb
+    - docker
+    - probeinterface
+    - spikeinterface[full]==0.90.1
+    - phy==2.0b1

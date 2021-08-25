@@ -1,24 +1,34 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3825284.svg)](https://doi.org/10.5281/zenodo.3825284)
 
 
-# spiketutorials
+# SpikeTutorials
 
-This module contains tutorials for using each package in [spikeinterface](https://github.com/SpikeInterface/spikeinterface).
+This repo contains tutorials for using each package in [spikeinterface](https://github.com/SpikeInterface/spikeinterface).
 These tutorials range from basic to advanced and cover many powerful functionalities enabled by SpikeInterface.
 
-Current `spikeinterface` modules are:
+Tutorial lists (from more recent to older): 
 
-- [spikeextractors](https://github.com/SpikeInterface/spikeextractors) - Python-based module for extracting recorded and spike sorted extracellular data from any file format
-- [spikesorters](https://github.com/SpikeInterface/spikesorters) - Python-wrappers to spike sorting algorithms
-- [spiketoolkit](https://github.com/SpikeInterface/spiketoolkit) - Python-based tools for pre-, post-processing, validation, and curation
-- [spikecomparison](https://github.com/SpikeInterface/spikecomparison) - Python package for comparing spike sorting output
-- [spikewidgets](https://github.com/SpikeInterface/spikewidgets) - Python plots and widgets relevant to spike sorting and electrophysiology
+### New API (version >= 0.90)
+
+- Official_Tutorial_SI_0.90_Aug2021 (SI==0.90.1) - presented by Alessio Buccino 
+@ [INCF NWB User Training Workshop](https://www.incf.org/neurodata-without-borders-nwb-user-training-workshop) (27th Aug 2021) 
+
+### Old API (version <= 0.13)
+
+- Cambridge_Neurotech_Webinar_Apr2021 (SI==0.12.0) - presented by Alessio Buccino and Samuel Garcia 
+@ Cambridge Neurotech webinars (8th Apr 2021) - [video](https://www.cambridgeneurotech.com/webinars/spike-sorting)
+
+- NWB_Developer_Breakout_Session_Sep2020 (SI==0.10.0) - presented by Alessio Buccino 
+@ [9th NWB User Days workshop](https://neurodatawithoutborders.github.io/nwb_hackathons/HCK09_2020_Remote/) - [video](https://www.youtube.com/watch?v=fvKG_-xQ4D8&ab_channel=NeurodataWithoutBorders)
+
+- NWB_Developer_Breakout_Session_May2020 (SI<0.10.0) - presented by Alessio Buccino 
+@ [8th NWB User Days workshop](https://neurodatawithoutborders.github.io/nwb_hackathons/HCK08_2020_Remote/)
 
 ## Dependencies
 
 To get started with these tutorials, install [spikeinterface](https://github.com/SpikeInterface/spikeinterface).
 Each tutorial contains a requirement and environment file for additional dependencies.
 
-Datasets are available on [Zenodo](https://doi.org/10.5281/zenodo.3825284).
-)
+Datasets for the tutorials are available on [Zenodo](https://doi.org/10.5281/zenodo.3825284).
+
 
