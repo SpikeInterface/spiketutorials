@@ -29,6 +29,6 @@ Tutorial lists (from more recent to older):
 To get started with these tutorials, install [spikeinterface](https://github.com/SpikeInterface/spikeinterface).
 Each tutorial contains a requirement and environment file for additional dependencies.
 
-Datasets for the tutorials are available on [Zenodo](https://doi.org/10.5281/zenodo.3825284).
+Datasets for the tutorials are available on [Zenodo](https://doi.org/10.5281/zenodo.4657314).
 
 
