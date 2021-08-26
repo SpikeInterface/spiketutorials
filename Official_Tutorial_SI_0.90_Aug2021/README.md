@@ -1,4 +1,4 @@
-# SpikeInterface Tutorial -  SI new API (versio>0.90)  - Aug 2021
+# SpikeInterface Tutorial -  SI new API (versio>=0.90)  - Aug 2021
 
 
 In this tutorial, we will cover the basics of using SpikeInterface for extracellular analysis and spike sorting comparison. 
