@@ -1,6 +1,6 @@
 # SpikeInterface Tutorial -  SI new API (versio>=0.94)  - May 2022
 
-This tutorial have been presented in Rome for the In2PB network workshop.
+This tutorial has been presented in Rome for the In2PB network workshop.
 
 In this tutorial, we will cover the basics of using SpikeInterface for extracellular analysis and spike sorting comparison. 
 We will be using the new `spikeinterface` version from the SpikeInterface github organization. 
