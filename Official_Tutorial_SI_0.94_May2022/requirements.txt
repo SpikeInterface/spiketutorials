@@ -1,0 +1,10 @@
+spikeinterface[full]==0.94.0
+spikeinterface-gui
+h5py
+seaborn
+ipympl
+pyqt5
+herdingspikes
+pynwb
+docker
+phy==2.0b1
