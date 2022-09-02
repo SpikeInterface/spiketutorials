@@ -23,6 +23,8 @@ dependencies:
   - jupyter
   - pyqt=5.12.3
   - pyqtgraph=0.12.4
+  - ipywidgets
+  - ipympl
   - pip:
     - neo>=0.11
     - spikeinterface[full]>=0.95.0
@@ -30,3 +32,5 @@ dependencies:
     - spikeinterface-gui>=0.4.1
     - MEArec>=1.8
     - tridesclous>=1.6.5
+    - sortingview
+    - docker

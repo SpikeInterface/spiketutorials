@@ -1,4 +1,4 @@
-# SpikeInterface Tutorial -  SI new API (versio>=0.94)  - May 2022
+# SpikeInterface Tutorial -  SI new API (versio>=0.95)  - Sep 2022
 
 This tutorial has been presented in Rome for the In2PB network workshop.
 
@@ -20,7 +20,7 @@ The dataset is provided by Samuel McKenzie.
 8. Spike sorting comparison
 9. Exporters
 
-We recommend creating a new `si090` conda environment using:
+We recommend creating a new `si_env` conda environment using:
 
 `conda env create -f environment.yml`
 
@@ -29,10 +29,13 @@ Alternatively, you can install the requirements you can use the `requirements.tx
 
 `pip install -r requirements.txt`
 
+In addition, it is recommended to install [docker-desktop](https://www.docker.com/products/docker-desktop/), as this will enable us to run 
+multiple spike sorters without installation!
+
 
 ### Downloading the recording
 
 First, we need to download the recording. Feel free to use your own recordings as well later on. 
-From this drive [link](https://drive.google.com/file/d/1QttTHyyqhO669QRo-L1eTnyGVzNJ3pvc/view?usp=sharing), you can download the dataset mentioned above (`cambridge_data.dat`).
+From this Zenodo [link](https://doi.org/10.5281/zenodo.4657314), you can download the dataset mentioned above (`cambridge_data.bin`) (~1.5 GB). 
 Move the dataset in the current folder and unzip it.
 The recording was performed with the "ASSY-156-P1" probe with 4 shanks of 16 channels (in total 64 channels).
