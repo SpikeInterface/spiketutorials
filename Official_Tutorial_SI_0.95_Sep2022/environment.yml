@@ -21,8 +21,8 @@ dependencies:
   - hdbscan
   - numba
   - jupyter
-  - pyqt=5.12.3
-  - pyqtgraph=0.12.4
+  - pyqt=5
+  - pyqtgraph
   - ipywidgets
   - ipympl
   - pip:
@@ -33,4 +33,5 @@ dependencies:
     - MEArec>=1.8
     - tridesclous>=1.6.5
     - sortingview
+    - phy==2.0b5
     - docker

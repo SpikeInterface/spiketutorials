@@ -7,4 +7,4 @@ pyqt5
 herdingspikes
 pynwb
 docker
-phy==2.0b1
+phy==2.0b5
