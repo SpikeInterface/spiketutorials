@@ -1,10 +1,11 @@
 spikeinterface[full]==0.95.0
 spikeinterface-gui
-h5py
+MEArec>=1.8
+tridesclous>=1.6.5
 seaborn
 ipympl
+ipywidgets
+sortingview
 pyqt5
-herdingspikes
-pynwb
 docker
 phy==2.0b5

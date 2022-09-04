@@ -21,8 +21,8 @@ dependencies:
   - hdbscan
   - numba
   - jupyter
-  - pyqt=5
-  - pyqtgraph
+  - pyqt=5.12.3
+  - pyqtgraph=0.12.4
   - ipywidgets
   - ipympl
   - pip:
