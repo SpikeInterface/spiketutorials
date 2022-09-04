@@ -9,16 +9,20 @@ For this analysis, we will use a 64-channel dataset from am "ASSY-156-P1" probe 
 The dataset is provided by Samuel McKenzie. 
 
 ### Table of contents
-0. Preparation
-1. Loading the data and probe information
-2. Preprocessing
-3. Saving and loading SpikeInterface objects
-4. Spike sorting
-5. Extracting waveforms
-6. Postprocessing
-7. Validation and curation
-8. Spike sorting comparison
-9. Exporters
+
+1. Preparation
+2. Loading the data and probe information
+3. Preprocessing
+4. Saving and loading SpikeInterface objects
+5. Data compression
+6. Spike sorting
+7. Extracting waveforms
+8. Postprocessing
+9. Validation and curation
+10. Viewers
+11. Spike sorting comparison
+12. Exporters
+13. Saving to NWB
 
 We recommend creating a new `si_env` conda environment using:
 

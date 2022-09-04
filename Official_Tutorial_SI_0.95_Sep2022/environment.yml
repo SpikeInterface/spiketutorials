@@ -33,4 +33,5 @@ dependencies:
     - MEArec>=1.8
     - tridesclous>=1.6.5
     - sortingview
+    - phy==2.0b5
     - docker
