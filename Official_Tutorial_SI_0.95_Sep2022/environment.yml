@@ -27,7 +27,7 @@ dependencies:
   - ipympl
   - pip:
     - neo>=0.11
-    - spikeinterface[full]>=0.95.0
+    - spikeinterface[full]>=0.95.1
     - probeinterface>=0.2.10
     - spikeinterface-gui>=0.4.1
     - MEArec>=1.8
