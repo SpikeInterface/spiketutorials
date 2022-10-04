@@ -1,0 +1,37 @@
+name: si_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip>=21.0
+  - numpy==1.21
+  - joblib
+  - tqdm
+  - pillow
+  - sphinx-gallery
+  - numpydoc
+  - matplotlib
+  - h5py
+  - pandas
+  - scikit-learn
+  - networkx
+  - pybind11
+  - loky
+  - hdbscan
+  - numba
+  - jupyter
+  - pyqt=5.12.3
+  - pyqtgraph=0.12.4
+  - ipywidgets
+  - ipympl
+  - pip:
+    - neo>=0.11
+    - spikeinterface[full]>=0.95.1
+    - probeinterface>=0.2.10
+    - spikeinterface-gui>=0.4.1
+    - MEArec>=1.8
+    - tridesclous>=1.6.5
+    - sortingview
+    - phy==2.0b5
+    - docker
