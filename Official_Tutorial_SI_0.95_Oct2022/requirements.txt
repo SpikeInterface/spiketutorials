@@ -2,7 +2,7 @@ spikeinterface[full,widgets]==0.95.1
 docker
 pynwb
 hdbscan
-joblib==1.1
+joblib==1.2.0
 figurl-jupyter
 spikeinterface-gui>=0.4.1
 phy==2.0b5
