@@ -5,7 +5,6 @@ In this demo, you will use SpikeInterface to analyze a Neuropixels dataset avail
 
 The objective of this demo is to show all the functionalities of SpikeInterface on a real-world example.
 
-The tutorial is designed to be run on [DandiHub](https://hub.dandiarchive.org/). In order to use GPU-based spike sorters (e.g. Kilosort), we have to select the GPU instance (T4 GPU for inference).
 
 ### Table of contents
 
