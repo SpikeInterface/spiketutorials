@@ -1,12 +1,11 @@
-# SpikeInterface Tutorial -  SI new API (versio>=0.95)  - Sep 2022
+# SpikeInterface DEMO v0.95 - NeuroDataReHack - October 2022
 
-This tutorial has been presented in Rome for the In2PB network workshop.
 
-In this tutorial, we will cover the basics of using SpikeInterface for extracellular analysis and spike sorting comparison. 
-We will be using the new `spikeinterface` version from the SpikeInterface github organization. 
+In this demo, you will use SpikeInterface to analyze a Neuropixels dataset available on DANDI (dataset [sub-npI1_ses-20190413_behavior+ecephys.nwb](https://dandiarchive.org/dandiset/000053/0.210819.0345/files?location=sub-npI1%2F)).
 
-For this analysis, we will use a 64-channel dataset from am "ASSY-156-P1" probe from Cambridge Neurotech. 
-The dataset is provided by Samuel McKenzie. 
+The objective of this demo is to show all the functionalities of SpikeInterface on a real-world example.
+
+The tutorial is designed to be run on [DandiHub](https://hub.dandiarchive.org/). In order to use GPU-based spike sorters (e.g. Kilosort), we have to select the GPU instance (T4 GPU for inference).
 
 ### Table of contents
 
@@ -14,15 +13,14 @@ The dataset is provided by Samuel McKenzie.
 2. Loading the data and probe information
 3. Preprocessing
 4. Saving and loading SpikeInterface objects
-5. Data compression
-6. Spike sorting
-7. Extracting waveforms
-8. Postprocessing
-9. Validation and curation
-10. Viewers
-11. Spike sorting comparison
-12. Exporters
-13. Saving to NWB
+5. Spike sorting
+6. Extracting waveforms
+7. Postprocessing
+8. Validation and curation
+9. Viewers
+10. Spike sorting comparison
+11. Saving to NWB
+
 
 We recommend creating a new `si_env` conda environment using:
 
@@ -37,9 +35,20 @@ In addition, it is recommended to install [docker-desktop](https://www.docker.co
 multiple spike sorters without installation!
 
 
-### Downloading the recording
+### Download the ephys data
 
-First, we need to download the recording. Feel free to use your own recordings as well later on. 
-From this Zenodo [link](https://doi.org/10.5281/zenodo.4657314), you can download the dataset mentioned above (`cambridge_data.bin`) (~1.5 GB). 
-Move the dataset in the current folder and unzip it.
-The recording was performed with the "ASSY-156-P1" probe with 4 shanks of 16 channels (in total 64 channels).
+We are going to use a public dataset from the Giacomo's lab publibly available on DANDI: https://dandiarchive.org/dandiset/000053/0.210819.0345
+
+The Dandiset contains several recordings and we are going tu use the `sub-npI1/sub-npI1_ses-20190413_behavior+ecephys.nwb`, which contains also the raw electrical series. 
+
+To download the dataset, either use the GUI:
+
+![image.png](attachment:image.png)
+
+Or the dandi CLI interface:
+
+```
+dandi download https://api.dandiarchive.org/api/assets/22f70021-de36-44c4-8f29-4998b9ff1123/download/
+```
+
+We assume that the file is downloaded in the local folder with the `sub-npI1_ses-20190413_behavior+ecephys.nwb` name.
