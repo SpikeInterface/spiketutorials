@@ -25,7 +25,7 @@ dependencies:
   - pyqtgraph=0.12.4
   - pip:
     - neo>=0.11
-    - spikeinterface[full,widgets]>=0.95.1
+    - spikeinterface[full,widgets]>=0.96.0
     - probeinterface>=0.2.10
     - spikeinterface-gui>=0.4.1
     - tridesclous>=1.6.5
