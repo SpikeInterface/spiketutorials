@@ -1,4 +1,4 @@
-spikeinterface[full,widgets]==0.95.1
+spikeinterface[full,widgets]==0.96.0
 docker
 pynwb
 hdbscan
