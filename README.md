@@ -10,6 +10,9 @@ Tutorial lists (from more recent to older):
 
 ### New API (version >= 0.90)
 
+- Official_Tutorial_SI_0.99_Oct23 (SI==0.98) - presented by Samuel Garcia
+@ [Neuralnet2023 Marseille](https://neuralnet2023.sciencesconf.org) 11th Oct 2023
+
 - Official_Tutorial_SI_0.96_Oct2022 (SI==0.96.0) - presented by Alessio Buccino
 @ [NeuroDataReHack](https://alleninstitute.org/what-we-do/brain-science/events-training/2022-neurodatarehack-hackathon/) (4th Oct 2022) - [video](https://drive.google.com/file/d/1-eiXo6aCPyaBa_uP9ldOCkUa4cZOB3vr/view?usp=share_link)
 
