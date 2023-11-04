@@ -1,0 +1,6 @@
+spikeinterface[full,widgets]==0.99.0
+docker
+pynwb
+hdbscan
+joblib
+spikeinterface-gui>=0.7
