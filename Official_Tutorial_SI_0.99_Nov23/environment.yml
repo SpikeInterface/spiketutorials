@@ -8,26 +8,18 @@ dependencies:
   - numpy
   - joblib
   - tqdm
-  - pillow
-  - sphinx-gallery
-  - numpydoc
   - matplotlib
   - h5py
   - pandas
   - scikit-learn
   - networkx
-  - pybind11
-  - loky
   - hdbscan
   - numba
   - jupyter
   - pyqt=5
   - pyqtgraph
   - pip:
-    - neo
     - spikeinterface[full,widgets]>=0.99
-    - probeinterface
-    - spikeinterface-gui
-    - tridesclous
-    # - phy==2.0b5
+    - spikeinterface-gui>=0.7
     - docker
+    # - phy==2.0b5

@@ -1,6 +1,6 @@
-# SpikeInterface DEMO v0.98 - Cambridge Neurotec tutorial- November 2023
+# SpikeInterface DEMO v0.99 - Cambridge Neurotech Webinar - November 2023
 
-In this demo, you will use SpikeInterface to analyze a dataset recordinded with cambridge neurotec probe.
+In this demo, you will use SpikeInterface to analyze a dataset recordinded with Cambridge Neurotech probe.
 
 The objective of this demo is to show all the functionalities of SpikeInterface on a real-world example.
 
@@ -33,6 +33,12 @@ Alternatively, you can install the requirements you can use the `requirements.tx
 
 `pip install -r requirements.txt`
 
-In addition, it is recommended to install [docker-desktop](https://www.docker.com/products/docker-desktop/), as this will enable us to run 
-multiple spike sorters without installation!
+In addition, it is recommended to install [docker-desktop](https://www.docker.com/products/docker-desktop/), as this will enable us to run multiple spike sorters without installation!
+Check this [documentation](https://spikeinterface.readthedocs.io/en/latest/modules/sorters.html#running-sorters-in-docker-singularity-containers) for more detailed installation instructions 
+for containers.
+
+## Installation Tips
+
+You can also checkout the `installation_tips` page on the SpikeInterface main repo:
+https://github.com/SpikeInterface/spikeinterface/blob/main/installation_tips/README.md
 
